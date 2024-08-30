@@ -45,6 +45,6 @@ JuegosYa es un proyecto web en desarrollo, creado en PHP, que busca ofrecer a lo
 
 ## Contribuciones
 
-Este proyecto está en desarrollo activo. Las contribuciones son bienvenidas, ya sea en la forma de sugerencias, correcciones de errores o nuevas funcionalidades.
+Este proyecto está en desarrollo semi activo. Las contribuciones son bienvenidas, ya sea en la forma de sugerencias, correcciones de errores o nuevas funcionalidades.
 
 
