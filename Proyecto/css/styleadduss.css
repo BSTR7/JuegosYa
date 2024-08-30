@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/044/312/115/original/alexandru-ni-a-pokeball-animation.gif?1639648968');
+    background-size: cover;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px #fff;
+}
+
+form {
+    width: 300px;
+    margin-top: 20px;
+    padding: 50px;
+    border: 2px solid #c764ff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    margin-top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #6e39a6;
+}
+
+caption {
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+thead th {
+    padding: 10px;
+    background-color: #b800ff;
+    color: #fff;
+}
+
+tbody td {
+    padding: 10px;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #8943b8;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #6e39a6;
+}
+
+tbody td select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    background-color: #6e39a6;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #b800ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px; /* Ajusta el ancho del contenedor según tus necesidades */
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #e600ff;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #b800ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e600ff;
+}

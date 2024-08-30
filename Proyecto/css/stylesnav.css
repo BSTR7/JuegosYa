@@ -1,0 +1,108 @@
+/* Importar la fuente Roboto de Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+
+/* Estilos del encabezado */
+#header {
+    display: flex; /* Mostrar los elementos en una línea horizontal */
+    justify-content: space-between; /* Distribuir los elementos uniformemente */
+    align-items: center; /* Alinear verticalmente los elementos */
+    border-bottom: 1px solid; /* Agregar un borde inferior */
+    border-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) 1;
+    background-color: #01024F;
+}
+
+/* Estilos de los menús de navegación y de inicio de sesión */
+#NavMenu ul, #Login ul {
+    font-family: 'Roboto', sans-serif; /* Establecer la fuente Roboto */
+    display: flex; /* Mostrar los elementos en una línea horizontal */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+}
+
+#NavMenu li, #Login li {
+    display: inline-block; /* Mostrar los elementos de lista en línea */
+    position: relative; /* Posición relativa para los elementos de lista */
+}
+
+#NavMenu a, #Login a {
+    display: flex; /* Mostrar los enlaces como elementos flexibles */
+    align-items: center; /* Alinear verticalmente los elementos */
+    padding: 10px; /* Agregar relleno alrededor del contenido */
+    text-decoration: none; /* Sin decoración de texto */
+    color: white; /* Color de texto */
+}
+
+#NavMenu a img, #Login a img {
+    width: 20px; /* Ancho de la imagen */
+    height: 20px; /* Altura de la imagen */
+    margin-right: 5px; /* Margen derecho para crear espacio entre la imagen y el texto */
+}
+
+#NavMenu a:hover, #Login a:hover {
+    background-color: #E60276; /* Color de fondo al pasar el cursor */
+}
+
+/* Estilos de los submenús */
+#NavMenu .submenu{
+    display: none; /* Ocultar los submenús */
+    position: absolute; /* Posición absoluta para los submenús */
+    top: 100%; /* Colocar debajo de los elementos principales */
+    left: 0; /* Alinear a la izquierda */
+    background-color: #01024F; /* Color de fondo */
+    min-width: 160px; /* Ancho mínimo */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Sombra */
+    z-index: 1; /* Capa z-index */
+}
+
+#NavMenu .has-submenu:hover .submenu, #Login .has-submenu:hover .submenu {
+    display: block; /* Mostrar el submenú al pasar el cursor */
+}
+
+#NavMenu .submenu li {
+    display: block; /* Mostrar los elementos de lista en bloque */
+}
+
+#NavMenu .submenu a{
+    padding: 15px; /* Agregar relleno alrededor del contenido del enlace */
+}
+/* Estilos de los submenús con submenús adicionales LOG */
+#Login {
+    float: right;
+    margin-right: 20px;
+}
+
+#Login .lghas-submenu {
+    position: relative;
+}
+
+#Login .lghas-submenu .lgsubmenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #01024F;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#Login .lghas-submenu:hover .lgsubmenu {
+    display: block;
+}
+
+#Login .lghas-submenu a {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.imglog{
+    width: 20px;
+}
+
+#Login .lghas-submenu .lgsubmenu li.welcome,
+#Login .lghas-submenu .lgsubmenu li.register {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+

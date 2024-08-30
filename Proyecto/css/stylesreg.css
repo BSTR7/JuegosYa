@@ -1,0 +1,61 @@
+/* Importar la fuente Roboto de Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+
+body {
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/044/312/115/original/alexandru-ni-a-pokeball-animation.gif?1639648968');
+    background-size: cover;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px  #fff;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #4c2278;
+    border: 2px solid #c764ff;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #e6b3ff;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    background-color: #6e39a6;
+    color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #b800ff;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    margin-top: 15px;
+    background-color: #e600ff;
+}
